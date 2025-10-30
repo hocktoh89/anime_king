@@ -6,9 +6,9 @@ function MainRoutes() {
 
   return (
   <Routes>
-  <Route index element={<Home />} />
-  <Route path="anime-details" element={<AnimeDetails />} />
-</Routes>
+    <Route index element={<Home />} />
+    <Route path="anime-details" element={<AnimeDetails />} />
+  </Routes>
   )
 }
 
